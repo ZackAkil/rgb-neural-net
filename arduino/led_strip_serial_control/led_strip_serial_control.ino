@@ -40,12 +40,6 @@ void loop() {
     
     leds[n] = createRGB(r,g,b);
     FastLED.show();
-       
-       
-    Serial.println(r);
-    Serial.println(g);
-    Serial.println(b);
-    Serial.println(n);
      
     
     // clear the string:
