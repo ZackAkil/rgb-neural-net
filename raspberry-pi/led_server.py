@@ -8,15 +8,6 @@ app = Flask(__name__)
 def index():
     return 'Hello world'
 
-@app.route('/change_led', methods=['POST'])
-def change_led():
-    red = request.form['red']
-    green = request.form['green']
-    blue = request.form['blue']
-    led_num = request.form['led_num']
-    send_led_change_command(red, green, blue, led_num)
-    return 'Done'
-
 @app.route('/change_leds', methods=['POST'])
 def change_leds():
     data = request.get_json()
@@ -36,7 +27,6 @@ def send_led_change_command(red, green, blue, led_num):
                                               format_blue,
                                               format_led_num)
     arduinoSerialData.write(bytes(message_to_send, 'UTF-8'))
-
 
 
 if __name__ == '__main__':
