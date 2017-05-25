@@ -30,6 +30,10 @@ Json body:
 }
 ```
 
+### To Do
+- [ ] Design neuron to 3D print
+- [ ] Get canvas for mounting network
+
 ### Resources
 
 http://www.meccanismocomplesso.org/en/controlling-arduino-raspberry-pi/
