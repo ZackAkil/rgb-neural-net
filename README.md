@@ -46,3 +46,7 @@ https://github.com/FastLED/FastLED
 
 Serial communication was becoming incredably slow when testing sending alot of requests. This turns out to be becuase i had teh arduino printing stuff to the serial line aswell and the raspberry pi was not readining it. This filled up the cach of the arduino and puts a 1 second delay on all further communication.
 https://arduino.stackexchange.com/questions/22816/serial-communication-dead-slow-after-a-while
+
+### Progess Images
+![3D neuron design](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/neuron-3d-design.png)
+
