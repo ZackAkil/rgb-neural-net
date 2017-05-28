@@ -31,7 +31,7 @@ Json body:
 ```
 
 ### To Do
-- [ ] Design neuron to 3D print
+- [x] Design neuron to 3D print
 - [ ] Get canvas for mounting network
 
 ### Resources
