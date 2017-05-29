@@ -49,4 +49,4 @@ https://arduino.stackexchange.com/questions/22816/serial-communication-dead-slow
 
 ### Progess Images
 ![3D neuron design](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/neuron-3d-design.png)
-
+![printed input node](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/printed%20input%20node.jpg)
