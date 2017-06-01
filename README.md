@@ -33,6 +33,9 @@ Json body:
 ### To Do
 - [x] Design neuron to 3D print
 - [ ] Print nodes
+-   - [x] Input layer
+-   - [ ] Hidden layer
+-   - [x] Output layer
 - [ ] Get canvas for mounting network
 
 ### Resources
