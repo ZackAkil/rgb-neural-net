@@ -32,7 +32,7 @@ Json body:
 
 ### To Do
 - [x] Design neuron to 3D print
-- [ ] Print nodes
+- [x] Print nodes
 -   - [x] Input layer
 -   - [x] Hidden layer
 -   - [x] Output layer
