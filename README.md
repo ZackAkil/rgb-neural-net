@@ -34,8 +34,10 @@ Json body:
 - [x] Design neuron to 3D print
 - [ ] Print nodes
 -   - [x] Input layer
--   - [ ] Hidden layer
+-   - [x] Hidden layer
 -   - [x] Output layer
+- [ ] Embbed electronics in first node
+- [ ] Embbed electronics in all node
 - [ ] Get canvas for mounting network
 
 ### Resources
