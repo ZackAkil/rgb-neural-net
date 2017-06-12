@@ -58,3 +58,7 @@ Intital 3d design of nodes:
 ![3D neuron design](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/neuron-3d-design.png)
 First and second interation of input/output node:
 ![printed input node](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/printed%20input%20node.jpg)
+All nodes printed:
+![network](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/printed%20network.jpg)
+Soldered node lights:
+![single node electrics](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/rgb%20neuron.jpg)
