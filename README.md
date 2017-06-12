@@ -36,6 +36,14 @@ Json body:
 -   - [x] Input layer
 -   - [x] Hidden layer
 -   - [x] Output layer
+- [ ] Build electrics for nodes
+-   - [x] 1 node
+-   - [ ] 2 node
+-   - [ ] 3 node
+-   - [ ] 4 node
+-   - [ ] 5 node
+-   - [ ] 6 node
+-   - [ ] 7 node
 - [ ] Embbed electronics in first node
 - [ ] Embbed electronics in all node
 - [ ] Get canvas for mounting network
