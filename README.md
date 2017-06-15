@@ -38,8 +38,8 @@ Json body:
 -   - [x] Output layer
 - [ ] Build electrics for nodes
 -   - [x] 1 node
--   - [ ] 2 node
--   - [ ] 3 node
+-   - [x] 2 node
+-   - [x] 3 node
 -   - [ ] 4 node
 -   - [ ] 5 node
 -   - [ ] 6 node
