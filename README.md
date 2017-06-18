@@ -42,8 +42,8 @@ Json body:
 -   - [x] 3 node
 -   - [x] 4 node
 -   - [x] 5 node
--   - [ ] 6 node
--   - [ ] 7 node
+-   - [x] 6 node
+-   - [x] 7 node
 - [ ] Embbed electronics in first node
 - [ ] Embbed electronics in all node
 - [ ] Get canvas for mounting network
