@@ -78,3 +78,5 @@ All nodes printed:
 ![network](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/printed%20network.jpg)
 Soldered node lights:
 ![single node electrics](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/rgb%20neuron.jpg)
+Electronics fitting in node shell:
+![single node electrics](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/elec%20in%20node.jpg)
