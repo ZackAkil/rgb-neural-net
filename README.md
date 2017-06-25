@@ -53,6 +53,7 @@ Json body:
 -   - [x] 6 node
 -   - [x] 7 node
 - [x] Test wire up
+- [ ] Create led mapper (to map to neuron weights)
 - [ ] Mount on board
 - [ ] Get canvas
 - [ ] Mount on canvas
