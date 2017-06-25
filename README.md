@@ -52,7 +52,7 @@ Json body:
 -   - [x] 5 node
 -   - [x] 6 node
 -   - [x] 7 node
-- [ ] Test wire up
+- [x] Test wire up
 - [ ] Mount on board
 - [ ] Get canvas
 - [ ] Mount on canvas
@@ -69,6 +69,8 @@ https://github.com/FastLED/FastLED
 
 Serial communication was becoming incredably slow when testing sending alot of requests. This turns out to be becuase i had teh arduino printing stuff to the serial line aswell and the raspberry pi was not readining it. This filled up the cach of the arduino and puts a 1 second delay on all further communication.
 https://arduino.stackexchange.com/questions/22816/serial-communication-dead-slow-after-a-while
+
+When starting the server, the first led can become frozen at its initial colour, restarting the power to the strip will fix this.
 
 ### Progress Images
 Intital 3d design of nodes:
