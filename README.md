@@ -54,7 +54,8 @@ Json body:
 -   - [x] 7 node
 - [x] Test wire up
 - [ ] Create LED mapper (to map to neuron weights)
-- [ ] Optimise arduino code to update LEDSs in batches
+- [ ] Optimise arduino code to update LEDs in batches
+- [ ] Design mounting solution for nodes
 - [ ] Mount on board
 - [ ] Get canvas
 - [ ] Mount on canvas
