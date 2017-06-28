@@ -88,3 +88,5 @@ Electronics fitting in node shell:
 ![single node electrics](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/elec%20in%20node.jpg)
 All electronics fitted in nodes 
 ![all nodes electrics](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/all%20wired.jpg)
+All nodes connected and lighting up
+![all nodes light up](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/net%20connected%20light.jpg)
