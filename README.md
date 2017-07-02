@@ -56,17 +56,17 @@ Json body:
 - [ ] Create LED mapper (to map to neuron weights)
 - [ ] Optimise arduino code to update LEDs in batches
 - [x] Design mounting solution for nodes
-- [ ] Mount nodes on board
+- [x] Mount nodes on board
 -   - [x] 1 node
 -   - [x] 2 node
 -   - [x] 3 node
 -   - [x] 4 node
 -   - [x] 5 node
--   - [ ] 6 node
--   - [ ] 7 node
+-   - [x] 6 node
+-   - [x] 7 node
 - [ ] Optically connect nodes
--   - [ ] 1 node
--   - [ ] 2 node
+-   - [x] 1 node
+-   - [x] 2 node
 -   - [ ] 3 node
 -   - [ ] 4 node
 -   - [ ] 5 node
