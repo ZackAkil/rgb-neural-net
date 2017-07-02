@@ -105,3 +105,7 @@ All electronics fitted in nodes
 ![all nodes electrics](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/all%20wired.jpg)
 All nodes connected and lighting up
 ![all nodes light up](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/net%20connected%20light.jpg)
+Nodes mounted on boards
+![all nodes electrics](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/nodes%20on%20board.jpg)
+Nodes connected by fiber optic
+![all nodes light up](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/optic%20connected%20nodes.jpg)
