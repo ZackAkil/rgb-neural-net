@@ -1,5 +1,8 @@
 # RGB Neural Net
 
+### What & Why?
+This poject is to build an artistic physical visualisation for training neural networks. It will serve to help understanding how nerual networks work along wih be aesthetically pleasing. 
+
 ### Installing arduino to raspberr pi
 ```
 sudo apt-get install arduino
