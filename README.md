@@ -57,8 +57,8 @@ Json body:
 - [ ] Optimise arduino code to update LEDs in batches
 - [x] Design mounting solution for nodes
 - [ ] Mount nodes on board
--   - [ ] 1 node
--   - [ ] 2 node
+-   - [x] 1 node
+-   - [x] 2 node
 -   - [x] 3 node
 -   - [x] 4 node
 -   - [x] 5 node
