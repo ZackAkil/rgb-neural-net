@@ -1,6 +1,6 @@
 #include "FastLED.h"
 
-#define NUM_LEDS 30
+#define NUM_LEDS 44
 #define DATA_PIN 3
 #define CLOCK_PIN 13
 
@@ -32,14 +32,19 @@ void loop() {
   // print the string when a newline arrives:
   if (stringComplete) {
     
+    if(inputString.length()==1){
+      FastLED.show();
+    }else{
+    
     int r = inputString.substring(0,3).toInt();
     int g = inputString.substring(3,6).toInt();
     int b = inputString.substring(6,9).toInt();
     int n = inputString.substring(9,11).toInt();
     
+//    Serial.println(n);
     
     leds[n] = createRGB(r,g,b);
-    FastLED.show();
+    }
      
     
     // clear the string:
