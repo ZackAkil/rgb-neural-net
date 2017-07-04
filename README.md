@@ -90,7 +90,7 @@ https://github.com/FastLED/FastLED
 
 ### Notes
 
-Serial communication was becoming incredably slow when testing sending alot of requests. This turns out to be becuase i had teh arduino printing stuff to the serial line aswell and the raspberry pi was not readining it. This filled up the cach of the arduino and puts a 1 second delay on all further communication.
+Serial communication was becoming incredably slow when testing sending alot of requests. This turns out to be becuase I had the arduino printing to the serial line whilst the raspberry pi was not readining it. This filled up the cach of the arduino and puts a 1 second delay on all further communication.
 https://arduino.stackexchange.com/questions/22816/serial-communication-dead-slow-after-a-while
 
 When starting the server, the first led can become frozen at its initial colour, restarting the power to the strip will fix this.
