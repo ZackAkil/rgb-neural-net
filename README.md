@@ -117,4 +117,4 @@ Nodes connected by fiber optic
 All nodes connected by fiber optic
 ![all nodes connected](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/full%20network.jpg)
 High and low colour weights
-![how node weights look](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/high%20low.jpg)
+![how node weights look](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/high%20lowd.jpg)
