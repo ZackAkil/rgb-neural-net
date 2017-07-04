@@ -114,3 +114,7 @@ Nodes mounted on boards
 ![all nodes electrics](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/nodes%20on%20board.jpg)
 Nodes connected by fiber optic
 ![all nodes light up](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/optic%20connected%20nodes.jpg)
+All nodes connected by fiber optic
+![all nodes connected](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/full%20network.jpg)
+High and low colour weights
+![how node weights look](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/high%20low.jpg)
