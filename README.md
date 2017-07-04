@@ -1,7 +1,7 @@
 # RGB Neural Net
 
 ### What & Why?
-This poject is to build an artistic physical visualisation for training neural networks. It will serve to help understanding how nerual networks work along wih be aesthetically pleasing. 
+This poject is to build an artistic physical visualisation for training neural networks. It will serve to help with understanding how nerual networks work along with being aesthetically pleasing. 
 
 ### Installing arduino to raspberr pi
 ```
