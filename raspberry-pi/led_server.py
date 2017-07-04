@@ -14,6 +14,7 @@ def change_leds():
     leds = data.get('leds')
     for led in leds:
         send_led_change_command(led['red'], led['green'], led['blue'], led['led_num'])
+    commit_led_changes()
     return 'Done'
 
 def send_led_change_command(red, green, blue, led_num):
@@ -26,8 +27,13 @@ def send_led_change_command(red, green, blue, led_num):
                                               format_red,
                                               format_blue,
                                               format_led_num)
-    arduinoSerialData.write(bytes(message_to_send, 'UTF-8'))
+    send_message_to_arduino(message_to_send)
 
+def commit_led_changes():
+    send_message_to_arduino('0')
+
+def send_message_to_arduino(message_to_send):
+    arduinoSerialData.write(bytes(message_to_send, 'UTF-8'))
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
