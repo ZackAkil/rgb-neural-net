@@ -58,7 +58,7 @@ Json body:
 - [x] Test wire up
 - [ ] Create LED mapper (to map to neuron weights)
 - [x] Optimise arduino code to update LEDs in batches
-- [ ] Optimise flask code to use new arduino code
+- [x] Optimise flask code to use new arduino code
 - [x] Design mounting solution for nodes
 - [x] Mount nodes on board
 -   - [x] 1 node
@@ -76,6 +76,7 @@ Json body:
 -   - [x] 5 node
 -   - [x] 6 node
 -   - [x] 7 node
+#### Optional
 - [ ] Get canvas
 - [ ] Mount on canvas
 
