@@ -1,7 +1,7 @@
 import json
 import urllib.request
 
-server_loc = 'http://192.168.1.154:5000'
+server_loc = 'http://192.168.1.162:5000'
 url = server_loc +'/change_leds'
 
 def send_led_json(led_json):

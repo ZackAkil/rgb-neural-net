@@ -12,6 +12,16 @@ def unwrap_to_pairs(l):
     else:
         print(l)
         return l
+    
+def unwrap_to_singles(l):
+    o = []
+    if type(l[0]) == list:
+        for i in l:
+            o += unwrap_to_singles(x)
+        return o
+    else:
+        print(l)
+        return l
 
 input_layer_bias = [
                     [8,9],
