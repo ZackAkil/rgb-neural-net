@@ -76,6 +76,8 @@ Json body:
 -   - [x] 6 node
 -   - [x] 7 node
 - [ ] Create LED mapper (to map to neuron weights)
+-   - [ ] Refactor server sending code into one doctument that:
+-   -   [ ] Sets an led to a value (one number converts to RGB)
 #### Optional
 - [ ] Get canvas
 - [ ] Mount on canvas
