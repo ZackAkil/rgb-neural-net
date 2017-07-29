@@ -23,6 +23,7 @@ class RGB_NN():
     
     def __init__(self, server_loc, scale=None):
         self._server_loc = server_loc
+        self._url = self._server_loc +'/change_leds'
         self._blank_leds_json = {"leds":[{**self._blank_led_json, "led_num":i} for i in range(self._led_num)]}
         self._scale = scale if scale else self._scale
         
@@ -35,7 +36,7 @@ class RGB_NN():
         if self._dummy_api:
             return led_json
         params = json.dumps(led_json).encode('utf8')
-        req = urllib.request.Request(_url, data=params,
+        req = urllib.request.Request(self._url, data=params,
                                   headers={'content-type': 'application/json'})
         response = urllib.request.urlopen(req)
         return True
@@ -59,17 +60,18 @@ class RGB_NN():
     
     def _val_to_rgb(self, val):
         ''' 
-            return [RED, GREEN, BLUE] for decimal 0.0 -> 1.0 
+            return [RED, GREEN, BLUE] for coef weight based on scale
         '''
         i = self._norm_val(val)
-        c = colorsys.hsv_to_rgb(i,1,1)
+        R2B_hue_range = i * (1/3)*2
+        c = colorsys.hsv_to_rgb(R2B_hue_range,1,1)
         rgb = [int((color*255)*self._brightness) for color in c]
         if self._verbose:
             print('val {0} normed to {1} to color {2}'.format(val,i,rgb))
         return rgb
     
     def _led_json_with_rgb_value(self, led_num, val):
-        r, g, b = self._val_to_rgb(val)
+        r, b, g = self._val_to_rgb(val)
         if self._verbose:
             print('mapping led {0}'.format(led_num))
         return {"led_num":led_num, "red":r, "green":g, "blue":b}
@@ -94,7 +96,7 @@ class RGB_NN():
     ]
 
     _hidden_layer_weights = [
-        [[16,41],[15,36]],
+        [[16,41],[17,36]],
         [[23,40],[25,35]],
         [[31,39],[32,34]]
     ]
