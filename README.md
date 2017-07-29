@@ -32,6 +32,7 @@ Json body:
     ]
 }
 ```
+ *^ this probably should have been a single dict with the key being the led number... ¯\\_(ツ)_/¯*
 
 ### To Do
 - [x] Design neuron to 3D print
