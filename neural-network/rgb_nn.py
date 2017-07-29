@@ -36,10 +36,23 @@ class RGB_NN():
         
     def _turn_off(self):
         _send_json(_blank_leds_json)
+        
+    def _cap_val(self, val):
+        if val > 1:
+            return 1
+        elif val < -1:
+            return -1
+        else:
+            return val
+    
+    def _norm_val(self, val):
+        capp = self._cap_val(val)
+        return capp + 1
     
     def _val_to_rgb(self, val):
     # return [RED, GREEN, BLUE] for decimal 0.0 -> 1.0
-        i = val*0.67
+        print('val:',val)
+        i = self._norm_val(val)
         c = colorsys.hsv_to_rgb(i,1,1)
         return [int((color*255)*self._brightness) for color in c]
     
