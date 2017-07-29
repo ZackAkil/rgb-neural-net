@@ -75,9 +75,9 @@ Json body:
 -   - [x] 5 node
 -   - [x] 6 node
 -   - [x] 7 node
-- [ ] Create LED mapper (to map to neuron weights)
--   - [ ] Refactor server sending code into one doctument that:
--   -   [ ] Sets an led to a value (one number converts to RGB)
+- [x] Create LED mapper (to map to neuron weights)
+-   - [x] Refactor server sending code into one doctument that:
+-   -   [x] Sets an led to a value (one number converts to RGB)
 #### Optional
 - [ ] Get canvas
 - [ ] Mount on canvas
@@ -96,6 +96,8 @@ Serial communication was becoming incredably slow when testing sending alot of r
 https://arduino.stackexchange.com/questions/22816/serial-communication-dead-slow-after-a-while
 
 When starting the server, the first led can become frozen at its initial colour, restarting the power to the strip will fix this.
+
+Cooling: it seems that the little pi zero can get a bit flustered running as a server and thus either helping it with some cooling or upgrading to a beafier pi board is nessasary.
 
 ### Progress Images
 Intital 3d design of nodes:
@@ -120,3 +122,7 @@ All nodes connected by fiber optic
 ![all nodes connected](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/full%20network.jpg)
 High and low colour weights
 ![how node weights look](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/high%20low%20colour.jpg)
+
+# Finaly!!!
+RGB network connected up and displaying weights in real time from a learning sklearn NN multi-label cassifier model:
+![final learning rgb nn](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/sklearn%20to%20rgb.jpg)
