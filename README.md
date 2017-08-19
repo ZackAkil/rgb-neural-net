@@ -3,6 +3,11 @@
 ### What & Why?
 This poject is to build an artistic physical visualisation for training neural networks. It will serve to help with understanding how nerual networks work along with being aesthetically pleasing. 
 
+### What it does
+The rgb network comprised of an array of rgb leds with side glow fiber optic tubing. An arduino drived teh led array, and a raspberry pi tell the arduino which leds to display. The raspberry pi acts as a local webserver and recieved API commands for what leds to turn on and which colour.
+
+
+## Its making 
 ### Installing arduino to raspberr pi
 ```
 sudo apt-get install arduino
