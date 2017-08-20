@@ -8,6 +8,8 @@ This projects goal was to build an intuiative and visually interesting way of se
 
 A separate computer runs the neural network training program and communicates with the RGB Neural Net over WiFi.
 
+### Using the RGB Neural Net
+![net learning](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/syth%20data.png)
 
 ### Techincal components
 Harware:
@@ -22,9 +24,6 @@ Software:
 - Flask API server running on Raspberry Pi taking requests and send intruction to Arduino via serial
 - Python library that converts SciKit-Learn neural network model into the API requests for the Raspberry Pi
 
-
-### What it does
-The rgb network comprised of an array of rgb leds with side glow fiber optic tubing. An arduino drived teh led array, and a raspberry pi tell the arduino which leds to display. The raspberry pi acts as a local webserver and recieved API commands for what leds to turn on and which colour.
 
 
 ## Its making 
