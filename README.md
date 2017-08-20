@@ -9,8 +9,29 @@ This projects goal was to build an intuiative and visually interesting way of se
 A separate computer runs the neural network training program and communicates with the RGB Neural Net over WiFi.
 
 ### Using the RGB Neural Net
+First I generate some data that I want the neural network to learn. In this case it's some multi label classification data, meaning that given an 'x' and a 'y' value (2 continuous features) a data point can either have label A, label B, both label A and B, or no label assigned to it. i.e Label A could be 'if someone likes apples', and label B couble be 'if someone like oranges', and therefore someone could like one, or the other, or both, or neither.
+There generated data looks like the following:
 ![net learning](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/syth%20data.png)
 
+Then in our program (python + sklearn) when create a neural network that is the same shape as the RGB one (1 hidden layer with 3 nodes).
+```python
+nn = MLPClassifier(hidden_layer_sizes=(3), 
+                   activation='logistic', 
+                   learning_rate_init=0.02, 
+                   max_iter=1, warm_start=True)
+```
+Then import the RGB library and create the connection to the RGB neural network:
+```python
+from rgb_nn import RGB_NN
+rgb = RGB_NN(server_loc='http://192.168.1.153:5000')
+```
+Finally just loop over the fiting of the code neural network along with the function to update the RGB neural network:
+ ```python
+ for i in range(50):
+    nn.fit(X_train, y_train)
+    rgb.display_weights(nn)
+```
+Then sit back and watch the learning happen:
 ![net learning](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/net%20learning.gif)
 
 
