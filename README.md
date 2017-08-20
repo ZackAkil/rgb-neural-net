@@ -8,15 +8,19 @@ This projects goal was to build an intuiative and visually interesting way of se
 
 A separate computer runs the neural network training program and communicates with the RGB Neural Net over WiFi.
 
-The physical components of project consists of:
+
+### Techincal components
+Harware:
 - 3D printed nodes
 - Fibre optic tubing
 - RGB LEDs
 - Arduino Uno
 - Raspberry Pi Zero
 
-It will serve to help with understanding how nerual networks work along with being aesthetically pleasing. 
-
+Software:
+- RGB LED strip driver with serial com script on Arduino
+- Flask API server running on Raspberry Pi taking requests and send intruction to Arduino via serial
+- Python library that converts SciKit-Learn neural network model into the API requests for the Raspberry Pi
 
 
 ### What it does
