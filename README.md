@@ -8,6 +8,8 @@ This projects goal was to build an intuiative and visually interesting way of se
 
 A separate computer runs the neural network training program and communicates with the RGB Neural Net over WiFi.
 
+The colours of teh connections represents the value of the weights between nodes (RED - Low, BLUE - 0, GREEN - High). The colours of the nodes themselves represent the bias value. 
+
 ### Using the RGB Neural Net
 First I generate some data that I want the neural network to learn. In this case it's some multi label classification data, meaning that given an 'x' and a 'y' value (2 continuous features) a data point can either have label A, label B, both label A and B, or no label assigned to it. i.e Label A could be 'if someone likes apples', and label B couble be 'if someone like oranges', and therefore someone could like one, or the other, or both, or neither.
 There generated data looks like the following:
