@@ -50,13 +50,13 @@ Software:
 
 
 
-## Its making 
+# Its making 
 ### Installing arduino to raspberr pi
 ```
 sudo apt-get install arduino
 ```
 
-### Turning on 20th LED
+### Turning on 20th LED from raspberry pi
 ```python
 import serial
 arduinoSerialData = serial.Serial('/dev/ttyACM0',9600)
