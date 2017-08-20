@@ -4,7 +4,10 @@ IOT physical neural network visualisation
 ![net learning](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/nn%20wall%20learning.gif)
 
 ### What & Why?
-This pojects goal was to build an intuiative and visually interesting way of seeing a neural network learn.
+This projects goal was to build an intuiative and visually interesting way of seeing a neural network learn. I built it becuase I had some empty wall space.
+
+A separate computer runs the neural network training program and communicates with the RGB Neural Net over WiFi.
+
 The physical components of project consists of:
 - 3D printed nodes
 - Fibre optic tubing
