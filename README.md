@@ -11,6 +11,9 @@ A separate computer runs the neural network training program and communicates wi
 ### Using the RGB Neural Net
 ![net learning](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/syth%20data.png)
 
+![net learning](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/net%20learning.gif)
+
+
 ### Techincal components
 Harware:
 - 3D printed nodes
@@ -151,7 +154,4 @@ High and low colour weights
 # Finaly!!!
 RGB network connected up and displaying weights in real time from a learning sklearn NN multi-label cassifier model:
 ![final learning rgb nn](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/sklearn%20to%20rgb.jpg)
-
-![net learning](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/net%20learning.gif)
-
 
