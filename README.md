@@ -1,4 +1,7 @@
 # RGB Neural Net
+Physical neural network visualisation 
+
+![net learning](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/net%20learning.gif)
 
 ### What & Why?
 This poject is to build an artistic physical visualisation for training neural networks. It will serve to help with understanding how nerual networks work along with being aesthetically pleasing. 
