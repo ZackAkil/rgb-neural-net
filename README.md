@@ -1,10 +1,20 @@
 # RGB Neural Net
-Physical neural network visualisation 
+IOT physical neural network visualisation 
 
-![net learning](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/net%20learning.gif)
+![net learning](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/nn%20wall%20learning.gif)
 
 ### What & Why?
-This poject is to build an artistic physical visualisation for training neural networks. It will serve to help with understanding how nerual networks work along with being aesthetically pleasing. 
+This pojects goal was to build an intuiative and visually interesting way of seeing a neural network learn.
+The physical components of project consists of:
+- 3D printed nodes
+- Fibre optic tubing
+- RGB LEDs
+- Arduino Uno
+- Raspberry Pi Zero
+
+It will serve to help with understanding how nerual networks work along with being aesthetically pleasing. 
+
+
 
 ### What it does
 The rgb network comprised of an array of rgb leds with side glow fiber optic tubing. An arduino drived teh led array, and a raspberry pi tell the arduino which leds to display. The raspberry pi acts as a local webserver and recieved API commands for what leds to turn on and which colour.
@@ -135,3 +145,7 @@ High and low colour weights
 # Finaly!!!
 RGB network connected up and displaying weights in real time from a learning sklearn NN multi-label cassifier model:
 ![final learning rgb nn](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/sklearn%20to%20rgb.jpg)
+
+![net learning](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/net%20learning.gif)
+
+
