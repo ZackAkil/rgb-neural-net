@@ -25,7 +25,7 @@ Then import the RGB library and create the connection to the RGB neural network:
 from rgb_nn import RGB_NN
 rgb = RGB_NN(server_loc='http://192.168.1.153:5000')
 ```
-Finally just loop over the fiting of the code neural network along with the function to update the RGB neural network:
+Finally just loop over the fitting of the code neural network along with the function to update the RGB neural network:
  ```python
  for i in range(50):
     nn.fit(X_train, y_train)
