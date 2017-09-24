@@ -2,6 +2,7 @@
 
 #define NUM_LEDS 50
 #define DATA_PIN 3
+// tie both data pins together
 #define CLOCK_PIN 13
 
 // Define the array of leds
