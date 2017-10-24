@@ -1,15 +1,15 @@
 # RGB Neural Net
-IOT physical neural network visualisation 
+IOT physical neural network visualization 
 
 ![net learning](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/nn%20wall%20learning.gif)
 
 ### What & Why?
-This projects goal was to build an intuiative and visually interesting way of seeing a neural network learn. I built it becuase I had some empty wall space.
+This projects goal was to build an intuitive and visually interesting way of seeing a neural network learn. I built it because I had some empty wall space.
 
 A separate computer runs the neural network training program and communicates with the RGB Neural Net over WiFi.
 
 ### Using the RGB Neural Net
-First I generate some data that I want the neural network to learn. In this case it's some multi label classification data, meaning that given an 'x' and a 'y' value (2 continuous features) a data point can either have label A, label B, both label A and B, or no label assigned to it. i.e Label A could be 'if someone likes apples', and label B couble be 'if someone like oranges', and therefore someone could like one, or the other, or both, or neither.
+First I generate some data that I want the neural network to learn. In this case it's some multi label classification data, meaning that given an 'x' and a 'y' value (2 continuous features) a data point can either have label A, label B, both label A and B, or no label assigned to it. i.e Label A could be 'if someone likes apples', and label B could be 'if someone like oranges', and therefore someone could like one, or the other, or both, or neither.
 There generated data looks like the following:
 ![net learning](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/syth%20data.png)
 
@@ -39,8 +39,8 @@ The colours of the connections represents the value of the weights between nodes
 ![net key](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/nn%20key.png)
 
 
-### Techincal components
-Harware:
+### Technical components
+Hardware:
 - 3D printed nodes
 - Fibre optic tubing
 - RGB LEDs
@@ -49,18 +49,18 @@ Harware:
 
 Software:
 - RGB LED strip driver with serial com script on Arduino
-- Flask API server running on Raspberry Pi taking requests and send intruction to Arduino via serial
+- Flask API server running on Raspberry Pi taking requests and send instruction to Arduino via serial
 - Python library that converts SciKit-Learn neural network model into the API requests for the Raspberry Pi
 
 
 
 # Its making 
-### Installing arduino to raspberr pi
+### Installing Arduino to Raspberry Pi
 ```
 sudo apt-get install arduino
 ```
 
-### Turning on 20th LED from raspberry pi
+### Turning on 20th LED from Raspberry Pi
 ```python
 import serial
 arduinoSerialData = serial.Serial('/dev/ttyACM0',9600)
@@ -69,7 +69,7 @@ arduinoSerialData.write('10010010020\n')
 
 ## Flask server API command
 
-`POST /change_leds` sets the rgb values of multiple leds at once.
+`POST /change_leds` sets the RGB values of multiple LEDs at once.
 
 Json body:
 
@@ -100,7 +100,7 @@ Json body:
 -   - [x] 5 node
 -   - [x] 6 node
 -   - [x] 7 node
-- [x] Embbed electronics nodes
+- [x] Embed electronics nodes
 -   - [x] 1 node
 -   - [x] 2 node
 -   - [x] 3 node
@@ -109,8 +109,8 @@ Json body:
 -   - [x] 6 node
 -   - [x] 7 node
 - [x] Test wire up
-- [x] Optimise arduino code to update LEDs in batches
-- [x] Optimise flask code to use new arduino code
+- [x] Optimise Arduino code to update LEDs in batches
+- [x] Optimise flask code to use new Arduino code
 - [x] Design mounting solution for nodes
 - [x] Mount nodes on board
 -   - [x] 1 node
@@ -129,7 +129,7 @@ Json body:
 -   - [x] 6 node
 -   - [x] 7 node
 - [x] Create LED mapper (to map to neuron weights)
--   - [x] Refactor server sending code into one doctument that:
+-   - [x] Re-factor server sending code into one document that:
 -   -   [x] Sets an led to a value (one number converts to RGB)
 #### Optional
 - [ ] Get canvas
@@ -145,17 +145,17 @@ https://github.com/FastLED/FastLED
 
 ### Notes
 
-Serial communication was becoming incredably slow when testing sending alot of requests. This turns out to be becuase I had the arduino printing to the serial line whilst the raspberry pi was not reading it. This filled up the buffer of the arduino and puts a 1 second delay on all further communication.
+Serial communication was becoming incredibly slow when testing sending a lot of requests. This turns out to be because I had the Arduino printing to the serial line whilst the Raspberry Pi was not reading it. This filled up the buffer of the Arduino and puts a 1 second delay on all further communication.
 https://arduino.stackexchange.com/questions/22816/serial-communication-dead-slow-after-a-while
 
 When starting the server, the first led can become frozen at its initial colour, restarting the power to the strip will fix this.
 
-Cooling: it seems that the little pi zero can get a bit flustered running as a server and thus either helping it with some cooling or upgrading to a beafier pi board is nessasary.
+Cooling: it seems that the little pi zero can get a bit flustered running as a server and thus either helping it with some cooling or upgrading to a beefier pi board is necessary.
 
 ### Progress Images
-Intital 3d design of nodes:
+Initial 3D design of nodes:
 ![3D neuron design](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/neuron-3d-design.png)
-First and second interation of input/output node:
+First and second interaction of input/output node:
 ![printed input node](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/printed%20input%20node.jpg)
 All nodes printed:
 ![network](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/printed%20network.jpg)
@@ -176,7 +176,6 @@ All nodes connected by fiber optic
 High and low colour weights
 ![how node weights look](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/high%20low%20colour.jpg)
 
-# Finaly!!!
-RGB network connected up and displaying weights in real time from a learning sklearn NN multi-label cassifier model:
+# Finally!!!
+RGB network connected up and displaying weights in real time from a learning sklearn NN multi-label classifier model:
 ![final learning rgb nn](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/sklearn%20to%20rgb.jpg)
-
