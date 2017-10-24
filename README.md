@@ -100,7 +100,7 @@ Json body:
 -   - [x] 5 node
 -   - [x] 6 node
 -   - [x] 7 node
-- [x] Embed electronics nodes
+- [x] Embeded electronics nodes
 -   - [x] 1 node
 -   - [x] 2 node
 -   - [x] 3 node
