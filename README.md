@@ -63,8 +63,8 @@ sudo apt-get install arduino
 ### Turning on 20th LED from raspberry pi
 ```python
 import serial
-arduinoSerialData = serial.Serial('/dev/ttyACM0',9600)
-arduinoSerialData.write('10010010020\n')
+arduino_serial_connection = serial.Serial('/dev/ttyACM0',9600)
+arduino_serial_connection.write('10010010020\n')
 ```
 
 ## Flask server API command
