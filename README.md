@@ -1,4 +1,4 @@
-### As featured in [HackSpace](https://hackspace.raspberrypi.org/issues/5)!!😄😄😄
+### As featured on [opensource.com](https://opensource.com/article/17/10/fiber-optic-neural-network-art) and in [HackSpace magazine](https://hackspace.raspberrypi.org/issues/5)!!😄😄😄
 Issue 5 - April 2018
 ![feature](images/hack%20space.png)
 
