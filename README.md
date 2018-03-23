@@ -3,6 +3,9 @@ IOT physical neural network visualization
 
 ![net learning](images/nn%20wall%20learning.gif)
 
+### As featured in [HackSpace](https://hackspace.raspberrypi.org/issues/5)!!😄😄😄
+![feature](images/hack%20space.png)
+
 ### What & Why?
 This projects goal was to build an intuitive and visually interesting way of seeing a neural network learn. I built it because I had some empty wall space.
 
