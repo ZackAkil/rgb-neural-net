@@ -4,6 +4,7 @@ IOT physical neural network visualization
 ![net learning](images/nn%20wall%20learning.gif)
 
 ### As featured in [HackSpace](https://hackspace.raspberrypi.org/issues/5)!!😄😄😄
+Issue 5 - April 2018
 ![feature](images/hack%20space.png)
 
 ### What & Why?
