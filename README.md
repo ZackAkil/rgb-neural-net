@@ -1,7 +1,7 @@
 # RGB Neural Net
 IOT physical neural network visualization 
 
-![net learning](https://raw.githubusercontent.com/ZackAkil/rgb-neural-net/master/images/nn%20wall%20learning.gif)
+![net learning](images/nn%20wall%20learning.gif)
 
 ### What & Why?
 This projects goal was to build an intuitive and visually interesting way of seeing a neural network learn. I built it because I had some empty wall space.
