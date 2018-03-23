@@ -1,11 +1,11 @@
+### As featured in [HackSpace](https://hackspace.raspberrypi.org/issues/5)!!😄😄😄
+Issue 5 - April 2018
+![feature](images/hack%20space.png)
+
 # RGB Neural Net
 IOT physical neural network visualization 
 
 ![net learning](images/nn%20wall%20learning.gif)
-
-### As featured in [HackSpace](https://hackspace.raspberrypi.org/issues/5)!!😄😄😄
-Issue 5 - April 2018
-![feature](images/hack%20space.png)
 
 ### What & Why?
 This projects goal was to build an intuitive and visually interesting way of seeing a neural network learn. I built it because I had some empty wall space.
